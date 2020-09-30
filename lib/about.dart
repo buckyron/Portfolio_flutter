@@ -296,7 +296,7 @@ class AboutMe extends StatelessWidget {
             children: [
               ///About Me.
               Text(
-                'About Me',
+                'About Me ',
                 style: TextStyle(
                     color: kPrimaryColor,
                     fontFamily: kTitleFont,
