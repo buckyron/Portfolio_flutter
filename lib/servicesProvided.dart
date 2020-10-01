@@ -72,7 +72,8 @@ class Services extends StatelessWidget {
                                         width: 150,
                                       ),
                                       Text(
-                                        'Mobile Application Development',
+                                        'Mobile Application\nDevelopment',
+                                        textAlign: TextAlign.center,
                                         style: TextStyle(
                                             fontFamily:
                                             kPrimaryFont,
@@ -153,7 +154,7 @@ class Services extends StatelessWidget {
             child: ConstrainedBox(
               constraints: BoxConstraints(maxWidth: 700),
               child: Container(
-                height: width > 700 ? 1000 : 1230,
+                height: width > 700 ? 1050 : 1280,
                 width: width,
                 child: Column(
                   children: [
@@ -182,7 +183,8 @@ class Services extends StatelessWidget {
                                       width: 150,
                                     ),
                                     Text(
-                                      'Mobile Application Development',
+                                      'Mobile Application\nDevelopment',
+                                      textAlign: TextAlign.center,
                                       style: TextStyle(
                                           fontFamily:
                                           kPrimaryFont,
