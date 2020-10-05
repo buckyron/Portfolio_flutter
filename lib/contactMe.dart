@@ -14,7 +14,7 @@ class ContactME extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 200,
+      height: 300,
       width: width,
       color: kPrimaryColor,
       child: Padding(
@@ -104,6 +104,16 @@ class ContactME extends StatelessWidget {
                       ),
                     )
                   ],
+                ),
+                SizedBox(height: 50,),
+                Text(
+                  '© All credit goes to Hari Vigneshwaran - Copyrights 2020 Hari Vigneshwaran.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontFamily: kPrimaryFont,
+                    color: Colors.white,
+                    fontSize: 20
+                  ),
                 )
               ],
             ),
