@@ -7,13 +7,16 @@ class ContactME extends StatelessWidget {
   const ContactME({
     Key key,
     @required this.width,
+    @required this.contactKey
   }) : super(key: key);
 
   final double width;
+  final GlobalKey contactKey;
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      key: contactKey,
       height: 300,
       width: width,
       color: kPrimaryColor,
